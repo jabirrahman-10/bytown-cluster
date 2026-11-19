@@ -1,0 +1,6 @@
+ID             NAME               IMAGE            NODE             DESIRED STATE   CURRENT STATE                ERROR                         PORTS
+qzssd8mxud2p   bytown_web.1       bytown-web:1.0   docker-desktop   Running         Running about a minute ago                                 
+z9wynh8n1exh   bytown_web.2       bytown-web:1.0   docker-desktop   Running         Running about a minute ago                                 
+u3n0538bkchw   bytown_web.3       bytown-web:1.0   docker-desktop   Running         Running about a minute ago                                 
+niu0vp52dtwq   bytown_web.4       bytown-web:1.0   docker-desktop   Running         Running 15 seconds ago                                     
+qiqt2kwg7ljt    \_ bytown_web.4   bytown-web:1.0   docker-desktop   Shutdown        Failed 20 seconds ago        "task: non-zero exit (137)"   

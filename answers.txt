@@ -1,0 +1,3 @@
+Q1: The Docker Swarm manager and Kubernetes controller started the new copies because both orchestrators continuously monitor running containers and automatically replace missing replicas to match the desired replica count
+Q2: Choose Docker Swarm for simple, fast setup using built-in Docker commands, and choose K3s to get real Kubernetes features with much lower memory and resource overhead than a full Kubernetes installation.
+Q3: Kubernetes replaced the old pods gradually one by one instead of stopping them all at once, keeping healthy pods running behind the Service to handle traffic throughout the update.
